@@ -36,4 +36,9 @@ public interface IHeroRepository
     /// </summary>
     /// <param name="id">The ID of the hero to delete.</param>
     void Delete(int id);
+
+    /// <summary>
+    /// Deletes all heroes.
+    /// </summary>
+    void DeleteAll();
 }
